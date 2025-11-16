@@ -1,4 +1,4 @@
-import type { INodeProperties } from "n8n-workflow";
+import type { ICredentialType, INodeProperties } from "n8n-workflow";
 
 export class AdobeFireflyApi implements ICredentialType {
   name = "adobeFireflyApi";
